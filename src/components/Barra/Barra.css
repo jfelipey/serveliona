@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: "Fraunces", serif;
+}
+.navbar{
+    display: flex;
+    height: 120px;
+    background-color: #D1D0CB;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navlinks{
+
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-it{
+    margin-right: 3rem;
+}
+
+.navbar a:hover{
+    color: #D28E7E;
+}
+
+.navbar a{
+    color: #704A3A;
+    text-decoration: none;
+}
+
+.logoServ{
+    width: 150px;
+    padding: 0;
+}
+
